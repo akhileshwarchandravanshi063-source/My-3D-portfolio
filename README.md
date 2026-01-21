@@ -55,3 +55,7 @@ The output will be in the dist/ folder, ready to be deployed to platforms like V
 
 📝 Notes & Tips
 [!TIP] Performance: When working with 3D models, always try to use compressed GLB files (using tools like GLTF-Pipeline) to ensure your portfolio loads quickly on mobile devices.
+
+<img width="1453" height="726" alt="Screenshot 2026-01-21 at 10 48 12 PM" src="https://github.com/user-attachments/assets/9d5f6144-3cf4-464c-9ad7-69d1464f8ed5" />
+
+
