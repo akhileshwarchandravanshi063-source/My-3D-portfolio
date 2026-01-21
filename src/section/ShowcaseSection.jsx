@@ -50,14 +50,13 @@ const ShowcaseSection = () => {
                     {/*left side*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde" />
+                            <img src="/images/project4.png" alt="White Board Flow" />
                         </div>
                         <div className="text-content">
                             <h2>
-                                Bring stories to life with ShortStoryAI.
-                            </h2>
+                                “Where Ideas Move at the Speed of Thought.” </h2>
                             <p className="text-white-50 md:text-xl">
-                                An app build with React and Node.js that allows users to create and share their own stories.
+                                Build an interacting whiteboard that allows users to create, edit, and share their ideas in real-time.
                             </p>
                         </div>
                     </div>
@@ -66,10 +65,10 @@ const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb] ">
-                                <img src="/images/project2.png" alt="Library Management Platform" />
+                                <img src="/images/project5.png" alt="Library Management Platform" />
                             </div>
                             <h2>
-                                Library Management Platform
+                                Build an app that store the important link, photos, tweets.
                             </h2>
                         </div>
 

@@ -1,21 +1,50 @@
-<<<<<<< HEAD
-# My-3D-portfolio
-=======
-# React + Vite
+🚀 My 3D Portfolio
+Welcome to my 3D Portfolio project! This application leverages the power of React, Vite, and Three.js to create an immersive, interactive web experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack
+Framework: React.js
 
-Currently, two official plugins are available:
+Build Tool: Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3D Engine: Three.js
 
-## React Compiler
+React Integration: React Three Fiber & Drei
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Styling: Tailwind CSS (optional but recommended)
 
-## Expanding the ESLint configuration
+📦 Getting Started
+Follow these steps to get your development environment up and running.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 4c0071b (Initial commit: 3D Portfolio setup)
-# My-3D-portfolio
+1. Clone the Repository
+Bash
+
+git clone https://github.com/akhileshwarchandravanshi063-source/My-3D-portfolio.git
+cd My-3D-portfolio
+2. Install Dependencies
+This project requires several packages to handle 3D rendering and animations. Run the following command:
+
+Bash
+
+npm install three @types/three @react-three/fiber @react-three/drei maath framer-motion
+3. Running the Project
+Launch the development server with Vite's blazing fast HMR (Hot Module Replacement):
+
+Bash
+
+npm run dev
+Once started, open http://localhost:5173 in your browser.
+
+🏗️ Project Structure
+To keep your 3D assets and components organized, I recommend the following structure:
+
+public/models/: Store your .glb or .gltf 3D models here.
+🚀 Deployment
+To create an optimized production build:
+
+Bash
+
+npm run build
+The output will be in the dist/ folder, ready to be deployed to platforms like Vercel, Netlify, or GitHub Pages.
+
+📝 Notes & Tips
+[!TIP] Performance: When working with 3D models, always try to use compressed GLB files (using tools like GLTF-Pipeline) to ensure your portfolio loads quickly on mobile devices.
